@@ -1,0 +1,323 @@
+
+body {
+    background-color: #000000;
+  }
+  
+  .sidenav {
+    width: 200px;
+    height: 600px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  #mySidenav {display: none !important;}
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+     color: #4ef2d6b3;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #318d28;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  .section-one {
+      height: 100vh;
+      margin: 50px 0;
+      overflow: hidden;
+  }
+  
+  .img_list_Wrapper{
+      display: flex;
+      align-items: center;
+      width: 100%;
+      height: 100%;
+      justify-content: flex-start;
+  }
+  .flexleft{
+      position: relative;
+      width: 20%;
+      height: 100%;
+  }
+  
+  .sidebar {
+      height: 100%;
+      width: 100%;
+      /*position: fixed;*/
+      /*z-index: 1;*/
+      /*top: 0;*/
+      /*left: 0%;*/
+      overflow-x: hidden;
+     display: flex;
+     align-items: center;
+  }
+  
+  .sidebar a {
+    padding: 6px 8px 6px 8px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+  
+  .fa-fw {
+      width: 30px;
+      text-align: center;
+      color: #000000;
+  }
+  
+  .fa-fw:hover {
+    color: #fff;
+  }
+  
+  
+  .person {
+      position: relative;
+      width: 100%;
+      box-shadow: 0 32px 84px 0 rgba(0,0,0,0.5);
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+  }
+  
+  .person__avatar {
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 50%;
+  }
+  
+  .person__info {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+  }
+  
+  .person__name {
+      font-weight: 900;
+      line-height: 1.17;
+      color: var(--c-white);
+      text-align: center;
+  }
+  
+  .person__socials-list {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      padding: 0;
+      list-style: none;
+      margin: 15px 0 70px;
+  }
+  
+  
+  
+  .upload-btn-wrapper {
+    position: relative;
+        width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .btn_upload {
+      color:#000;
+      background-color:#00AB72;
+      padding: 3px 10px;
+      border-radius: 50px;
+      font-size: 13px;
+      cursor: pointer;
+      border: 1px solid #00AB72;
+      margin-top: 15px;
+      padding: 10px;
+      width: 80%;
+  
+  }
+  
+  .upload-btn-wrapper input[type=file] {
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    cursor: pointer;
+  
+  }
+  
+  .site-content__page {
+      padding: 50px 20px 10px 20px;
+      margin-top: 55px;
+      color:#fff;
+      width: 100%;
+      font-size: 14px;
+      height: 585px;
+      overflow-x: hidden;
+      overflow-y: scroll;
+      box-shadow: rgba(0,0,0,0.5) 0px 0px 35px;
+     background-color: #000000;
+     margin: 0 0 0 auto;
+  
+  }
+  
+  
+  
+  .niko-sc__about-item {
+    font-size: 24px;
+    padding-top: 5px;
+  }
+  
+      .left-menu__download {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+           width: 100%;
+      }
+  
+  .left-menu__download-btn {
+      font-size: 14px;
+      background-color:#00AB72;
+      border-radius: 20px;
+      color: #fff;
+      font-weight: 600;
+      text-decoration: none;
+      width: 80%;
+      padding: 6px 10px;
+  }
+  
+  
+  .per_content {
+      width: 100%;
+      height: 50%;
+      background-color: #000000;
+      padding: 15px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  }
+  
+  .toggle {margin-left: 22px;}
+  
+  
+  .person__avatar img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .design-skills h3 {font-size: 14px; padding-top: 5px;}
+  .code-skills h3 {font-size: 14px; padding-top: 5px;}
+  .design-skills h2 {font-size: 20px;}
+  .code-skills h2 {font-size: 20px;}
+  
+  .progress-bar {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      color: #fff;
+  text-align: center;
+  background-color: #00AB72;
+      transition: width .6s ease;
+  }
+  
+  section ul {margin-left: -28px;} 
+  
+  @media only screen and (max-width: 640px) and (min-width: 360px) {
+    .sidebar {height: 460px;width: 80px;position: fixed;
+   left: 0%; overflow-x: hidden; padding-top: 16px;}
+  .site-content__page {padding: 4px 4px 8px 20px; margin: 0 0 0 auto; margin-top: 0px;
+          color:#fff; width: 100%;font-size: 12px; overflow-x: hidden;
+   height: auto; position: relative; padding-bottom: 20px; overflow-y: hidden;
+  }
+  .sidebar {margin-top: 50px;}
+  .toggle {margin-left: 25px;}
+  .person__avatar { position: relative;}
+  .person {margin-left:63px;}
+  .section ul {margin-left: -28px; padding-right: 15px;} 
+  
+  }
+  
+  @media only screen and (max-width: 667px) and (min-width: 375px) {
+    .site-content__page {margin: 0 0 0 auto; margin-top: 0px; width: 100%;}
+    .person {margin-left:65px;}
+  }
+  
+  @media only screen and (max-width: 736px) and (min-width: 414px) {
+    .site-content__page {margin: 0 0 0 auto; margin-top: 0px;  width: 100%;}
+    .person {margin-left:65px;}
+  }
+  @media only screen and (max-width: 731px) and (min-width: 411px) {
+    .site-content__page {margin: 0 0 0 auto; width: 100%;}
+    .person {margin-left:65px;}
+  
+  }
+  
+  @media only screen and (max-width: 1024px) and (min-width: 768px) {
+    .sidebar {position: fixed;
+   left: 0%; overflow-x: hidden; }
+  .site-content__page {padding: 4px 4px 8px 20px; margin: 0 0 0 auto; color:#fff; width: 100%; font-size: 13px; height: 90%; overflow-x: hidden;
+   position: relative; padding-bottom: 20px; overflow-y: hidden;
+  }
+  .toggle {margin-left: 20px;}
+  .person__avatar { position: relative;}
+  .section ul {margin-left: -28px; padding-right: 20px;} 
+  .site-content__page {font-size: 13px; padding: 15px;}
+  
+  }
+  
+  /*css start*/
+  
+  
+  .site-content__inner-right {
+      height: 100%;
+      width: 100%;
+      display: flex;
+      align-items: center;
+  }
+  
+      .candidate_name {
+          text-align: center; 
+          color: #fff; 
+          font-size: 30px;
+      }
+      
+      .niko-sc.niko-sc--about{
+          padding-top: 15px;
+      }
